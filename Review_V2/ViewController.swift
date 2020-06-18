@@ -10,10 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mensajeBienvenida: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        mensajeBienvenida.text = "Cristian Gomez te da la bienvenida"
+        // cambiar 
         // Do any additional setup after loading the view.
     }
+
 
 
 }
